@@ -19,7 +19,6 @@ echo "<h2>Users in $selectedCountry</h2>";
 <a href="logout.php">Logout</a>
 
 <form action="" method="GET">
-    //hidden field for Country
     <input type="hidden" name="country" value="<?php echo $selectedCountry; ?>">
     <label for="username">Filter by Username:</label>
     <input type="text" id="username" name="username" value="<?php echo htmlspecialchars($usernameFilter); ?>">
