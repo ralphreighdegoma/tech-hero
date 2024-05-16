@@ -2,4 +2,5 @@
 
 require 'db.php';
 
-$database = new Database("localhost", "root", "looping123", "tech_hero");
+$database = new Database("localhost", "root", "_Looping124", "tech_hero");
+

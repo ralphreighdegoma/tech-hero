@@ -1,5 +1,5 @@
 <?php
-require '../auth.php';
+require '../Auth.php';
 require '../Connection.php';
 require '../Country.php';
 
